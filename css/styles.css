@@ -185,7 +185,7 @@ nav ul li a {
 /* footer section styles */
 footer{
     height: 235px;
-    background: #0A0826;
+    background-color: #0A0826;
     color: #FFF;
     display: flex;
     justify-content: center; 
