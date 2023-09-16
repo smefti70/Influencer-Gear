@@ -4,7 +4,7 @@
 
 /*shared styles*/
 body,
-.btn-primary{
+.btn-primary {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body,
     border-radius: 41px;
     padding: 15px 25px;
     background: #E02C6D;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
@@ -73,6 +73,25 @@ nav ul li a {
     background-size: contain;
 }
 
+
+/* sponsor section styles */
+.sponsor-section{
+    margin: 70px 0;
+}
+.border {
+    margin: 0 auto;
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+.sponsors{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
 /* media queries */
 
 /* mobile devices */
@@ -86,7 +105,7 @@ nav ul li a {
     }
 
     nav ul li:nth-child(3),
-    li:nth-child(5){
+    li:nth-child(5) {
         display: none;
     }
 
@@ -94,30 +113,39 @@ nav ul li a {
         flex-direction: column-reverse;
     }
 
-    .banner-content{
+    .banner-content {
         margin-top: 30px;
         width: 100%;
         text-align: center;
     }
 
-    .banner-content .btn-primary{
+    .banner-content .btn-primary {
         margin: 0 auto;
     }
 
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 1.75rem;
     }
 
-    .banner-content p{
+    .banner-content p {
         font-size: 0.875rem;
     }
 
-    .banner-img{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
+    .banner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
+
+    .border{
+        display: none;
+    }
+
+    .sponsors{
+        flex-wrap: wrap;
+    }
+
 }
 
 /* tablet and medium devices */
@@ -129,32 +157,41 @@ nav ul li a {
     nav ul {
         padding-left: 0px;
     }
+
     .banner {
         flex-direction: column;
     }
 
-    .banner-content{
+    .banner-content {
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
     }
 
-    .banner-content .btn-primary{
+    .banner-content .btn-primary {
         margin: 0 auto;
     }
 
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 1.75rem;
     }
 
-    .banner-content p{
+    .banner-content p {
         font-size: 0.875rem;
     }
 
-    .banner-img{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
+    .banner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+    }
+
+    .border{
+        display: none;
+    }
+    
+    .sponsors{
+        flex-wrap: wrap;
     }
 }
