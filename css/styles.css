@@ -85,6 +85,11 @@ nav ul li a {
         padding-left: 0px;
     }
 
+    nav ul li:nth-child(3),
+    li:nth-child(5){
+        display: none;
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
